@@ -1,4 +1,4 @@
-
+/* The start of the Testing.html */
 #logo{
 display: block;
 margin-left: auto;
@@ -14,8 +14,6 @@ border: 10px solid yellow;
 column-gap: 10px;
 display: flex;
 }
-
-
 
 .index-category-box{
 width: 350px;
@@ -66,5 +64,21 @@ text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 h2{
 text-align: center;
+
 }
 
+
+
+/* The start of the gang.html  */
+
+#background{
+background-color:black ;
+color: aliceblue;
+}
+
+
+#patches{
+justify-content: right;
+align-content: right;
+
+}
