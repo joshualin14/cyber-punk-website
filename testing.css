@@ -7,16 +7,18 @@ width: 35%;
 }
 
 .index-category{
-width: 98%; 
+width: 100%; 
 padding: 20px 0;
 background-color: grey;
 border: 10px solid yellow;
-column-gap: 10px;
+column-gap: 40px;
 display: flex;
+justify-content: center;
+align-content: center;
 }
 
 .index-category-box{
-width: 350px;
+width: 300px;
 height: 200px;
 background-color: black;
 background-repeat: no-repeat;
@@ -28,6 +30,7 @@ justify-content: center;
 .index-category-box:nth-child(1) {
    background-image: url(/Photos/6\ street\ logo.jpg);
    background-position: center;
+   
 
 }
 .index-category-box:nth-child(2) {
@@ -53,13 +56,13 @@ background-color: rgb(39,41,50);
 color: aliceblue;
 font-weight: 10px;
 padding: 10px;
-justify-self: center;
-align-self:center;
+text-align: center;
 }
 
 a{
 color: aliceblue;
 text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+align-items: center;
 }
 
 h2{
@@ -77,8 +80,17 @@ color: aliceblue;
 }
 
 
-#patches{
-justify-content: right;
-align-content: right;
+.uniforms{
+width: 100%;
+padding: 10px;
+border: 10px solid yellow; 
+column-gap: 10px;
+display: flex;
+}
+
+
+.Patches{
+display:flex;
+justify-content: center;
 
 }
