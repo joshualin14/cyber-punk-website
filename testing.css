@@ -39,11 +39,11 @@ justify-content: center;
 }
 
 .index-category-box:nth-child(3) {
-   background-image: url(/Photos/Background.jpg);
+   background-image: url(/Photos/background\ japan\ town.png);
    background-position: center;
 }
 .index-category-box:nth-child(4) {
-   background-image: url(/Photos/Arasaka.png);
+   background-image: url(/Photos/Corporations_Database_CP2077.jpg);
    background-position: center;
 }
 .index-category-box-h3{
