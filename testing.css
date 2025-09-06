@@ -57,6 +57,7 @@ color: aliceblue;
 font-weight: 10px;
 padding: 10px;
 text-align: center;
+background-image: url(/Photos/Back\ in\ black.webp);
 }
 
 a{
@@ -92,5 +93,14 @@ display: flex;
 .Patches{
 display:flex;
 justify-content: center;
+
+}
+.Backgroundcolour{
+background-color: rgb(39,41,50);
+padding: 3px; /* Add some padding around the text */
+word-spacing:;
+
+
+
 
 }
