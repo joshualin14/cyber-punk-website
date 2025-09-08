@@ -58,6 +58,8 @@ font-weight: 10px;
 padding: 10px;
 text-align: center;
 background-image: url(/Photos/Back\ in\ black.webp);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 a{
@@ -68,11 +70,16 @@ align-items: center;
 
 h2{
 text-align: center;
+text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.Backgroundcolour{
+background-color: rgb(39,41,50);
+padding: 1px;
+text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+display: block;
+margin-bottom: ;
 
 }
-
-
-
 /* The start of the gang.html  */
 
 #background{
@@ -93,14 +100,11 @@ display: flex;
 .Patches{
 display:flex;
 justify-content: center;
-
 }
-.Backgroundcolour{
-background-color: rgb(39,41,50);
-padding: 3px; /* Add some padding around the text */
-word-spacing:;
 
-
-
-
+footer{
+background-color: black;
+position:fixed ;bottom: 0;
+display: block;
+text-align: center;
 }
