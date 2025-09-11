@@ -60,6 +60,7 @@ text-align: center;
 background-image: url(/Photos/Back\ in\ black.webp);
 background-repeat: no-repeat;
 background-size: cover;
+word-wrap: break-word;
 
 }
 
@@ -82,9 +83,14 @@ display: block;
 
 #Maingame{
 text-align: left;
-
-
 }
+
+#nomadscamp{
+width: 400px;
+word-wrap: break-word;
+margin-bottom: 40px;
+}
+   
 /* The start of the gang.html  */
 
 #background{
