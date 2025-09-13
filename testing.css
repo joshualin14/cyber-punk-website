@@ -89,6 +89,8 @@ text-align: left;
 width: 400px;
 word-wrap: break-word;
 margin-bottom: 40px;
+float: right;
+margin: left 15px; ;
 }
    
 /* The start of the gang.html  */
@@ -114,8 +116,11 @@ justify-content: center;
 }
 
 footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
 background-color: black;
-position:fixed ;bottom: 0;
-display: block;
+color: white;
 text-align: center;
 }
