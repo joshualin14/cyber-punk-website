@@ -89,8 +89,9 @@ text-align: left;
 width: 400px;
 word-wrap: break-word;
 margin-bottom: 40px;
-float: right;
-margin: left 15px; ;
+float: right bottom;
+margin: right 15px;
+margin: bottom 35px;
 }
    
 /* The start of the gang.html  */
