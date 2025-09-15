@@ -26,6 +26,11 @@ background-size: cover;
 display: flex;
 justify-content: center;
 }
+
+h3{
+background-color: black;
+
+}
 /* catogories box */
 .index-category-box:nth-child(1) {
    background-image: url(/Photos/Gangs\ logo.jpg_large);
@@ -87,6 +92,7 @@ text-align: left;
 background-color: rgb(39,41,50);
 font-weight: 10px;
 padding: 10px;
+letter-spacing: 10px;
 }
 
 #nomadscamp{
@@ -98,13 +104,14 @@ margin: right 15px;
 }
 
 #ArasakaCorp{
-width: 600px;
+height: 400px;
 }
-
 #choices{
 height: 400px;
 }
-
+#SuspendedTrain{
+height: 400px;
+}
    
 /* The start of the gang.html  */
 
@@ -112,7 +119,6 @@ height: 400px;
 background-color:black ;
 color: white ;
 margin-top: 40px;
-letter-spacing: 5px;
 }
 
 
