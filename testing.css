@@ -3,7 +3,7 @@
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 35%;
+width: 45%;
 }
 
 .index-category{
@@ -18,7 +18,7 @@ align-content: center;
 }
 
 .index-category-box{
-width: 400px;
+width: 500px;
 height: 200px;
 background-color: black;
 background-repeat: no-repeat;
@@ -28,13 +28,13 @@ justify-content: center;
 }
 /* catogories box */
 .index-category-box:nth-child(1) {
-   background-image: url(/Photos/6\ street\ logo.jpg);
+   background-image: url(/Photos/Gangs\ logo.jpg_large);
    background-position: center;
    
 
 }
 .index-category-box:nth-child(2) {
-   background-image: url(/Photos/Districts-removebg-preview.png);
+   background-image: url(/Photos/Map.jpg);
    background-position: center;
 }
 
@@ -96,17 +96,22 @@ margin-bottom: 40px;
 float: right top;
 margin: right 15px;
 }
+
+#ArasakaCorp{
+width: 600px;
+}
+
 #choices{
 height: 400px;
-
-
 }
+
    
 /* The start of the gang.html  */
 
 #background{
 background-color:black ;
-color: aliceblue;
+color: white ;
+margin-top: 40px;
 }
 
 
@@ -133,11 +138,12 @@ color: white;
 text-align: center;
 }
 .Information{
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-  display: flex;
-  align-items: right;
+float: right;
+margin:top 100px ;
+height: 300px;
+width: 200px;
+background-color:darkslategrey;
+border: 3px solid yellow;
+color: black;
+padding: 10px;
 }
