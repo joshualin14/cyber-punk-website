@@ -1,4 +1,4 @@
-/* The start of the Testing.html */
+/* The start of the Mainpage.html */
 #logo{
 display: block;
 margin-left: auto;
@@ -28,27 +28,27 @@ justify-content: center;
 }
 
 h3{
-background-color: black;
+background-color: rgba(0, 0, 0, 0.258);
 
 }
 /* catogories box */
 .index-category-box:nth-child(1) {
-   background-image: url(/Photos/Gangs\ logo.jpg_large);
+   background-image: url(Photos/Gangs\ logo.jpg_large);
    background-position: center;
    
 
 }
 .index-category-box:nth-child(2) {
-   background-image: url(/Photos/Map.jpg);
+   background-image: url(Photos/Map.jpg);
    background-position: center;
 }
 
 .index-category-box:nth-child(3) {
-   background-image: url(/Photos/background\ japan\ town.png);
+   background-image: url(Photos/background\ japan\ town.png);
    background-position: center;
 }
 .index-category-box:nth-child(4) {
-   background-image: url(/Photos/Corporations_Database_CP2077.jpg);
+   background-image: url(Photos/Corporations_Database_CP2077.jpg);
    background-position: center;
 }
 .index-category-box-h3{
@@ -63,7 +63,7 @@ color: aliceblue;
 font-weight: 10px;
 padding: 10px;
 text-align: center;
-background-image: url(/Photos/Back\ in\ black.webp);
+background-image: url(Photos/Back\ in\ black.webp);
 background-repeat: no-repeat;
 background-size: cover;
 word-wrap: break-word;
@@ -96,7 +96,7 @@ letter-spacing: 10px;
 }
 
 #nomadscamp{
-width: 600px;
+width: 700px;
 word-wrap: break-word;
 margin-bottom: 40px;
 float: right top;
@@ -110,7 +110,7 @@ height: 400px;
 height: 400px;
 }
 #SuspendedTrain{
-height: 400px;
+height: 300px;
 }
    
 /* The start of the gang.html  */
@@ -119,21 +119,17 @@ height: 400px;
 background-color:black ;
 color: white ;
 margin-top: 40px;
+
 }
 
 
 .uniforms{
 width: 100%;
 padding: 10px;
+background-color: rgba(44, 3, 97, 0.42);
 border: 10px solid yellow; 
 column-gap: 10px;
 display: flex;
-}
-
-
-.Patches{
-display:flex;
-justify-content: center;
 }
 
 footer{
@@ -153,4 +149,52 @@ background-color:darkslategrey;
 border: 3px solid yellow;
 color: black;
 padding: 10px;
+}
+
+.index-category2{
+width: 100%; 
+padding: 10px 0;
+background-color:rgba(128, 128, 128, 0.733);
+border: 10px solid yellow;
+column-gap: 40px;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.index-category-box2{
+width: 500px;
+height: 200px;
+background-color: rgba(0, 0, 0, 0.783);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+}
+
+/* catogories box */
+.index-category-box2{
+   background-image: url(Photos/6\ street\ logo.jpg);
+   background-position: center;
+
+}
+.index-category-box2:nth-child(2) {
+   background-image: url(Photos/Maelstrom.png);
+   background-position: center;
+}
+
+.index-category-box2:nth-child(3) {
+   background-image: url(Photos/Tigerclaws2.png);
+   background-position: center;
+}
+.index-category-box2:nth-child(4) {
+   background-image: url(Photos/Animals.png);
+   background-position: center;
+}
+
+#Members{
+height: 300px;
+
+
+
 }
