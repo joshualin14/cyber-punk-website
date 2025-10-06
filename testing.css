@@ -3,13 +3,13 @@
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 35%;
+width: 45%;
 }
 
 .index-category{
 width: 100%; 
-padding: 20px 0;
-background-color: grey;
+padding: 10px 0;
+background-color:rgba(128, 128, 128, 0.733);
 border: 10px solid yellow;
 column-gap: 40px;
 display: flex;
@@ -18,7 +18,7 @@ align-content: center;
 }
 
 .index-category-box{
-width: 300px;
+width: 500px;
 height: 200px;
 background-color: black;
 background-repeat: no-repeat;
@@ -27,23 +27,28 @@ display: flex;
 justify-content: center;
 }
 
+h3{
+background-color: black;
+
+}
+/* catogories box */
 .index-category-box:nth-child(1) {
-   background-image: url(/Photos/6\ street\ logo.jpg);
+   background-image: url(/Photos/Gangs\ logo.jpg_large);
    background-position: center;
    
 
 }
 .index-category-box:nth-child(2) {
-   background-image: url(/Photos/Districts-removebg-preview.png);
+   background-image: url(/Photos/Map.jpg);
    background-position: center;
 }
 
 .index-category-box:nth-child(3) {
-   background-image: url(/Photos/Background.jpg);
+   background-image: url(/Photos/background\ japan\ town.png);
    background-position: center;
 }
 .index-category-box:nth-child(4) {
-   background-image: url(/Photos/Arasaka.png);
+   background-image: url(/Photos/Corporations_Database_CP2077.jpg);
    background-position: center;
 }
 .index-category-box-h3{
@@ -51,12 +56,18 @@ font-size: 18px;
 line-height: 10px;
 }
 
+
 #Lore{
 background-color: rgb(39,41,50);
 color: aliceblue;
 font-weight: 10px;
 padding: 10px;
 text-align: center;
+background-image: url(/Photos/Back\ in\ black.webp);
+background-repeat: no-repeat;
+background-size: cover;
+word-wrap: break-word;
+
 }
 
 a{
@@ -67,16 +78,47 @@ align-items: center;
 
 h2{
 text-align: center;
-
+text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.Backgroundcolour{
+background-color: rgb(39,41,50);
+padding: 1px;
+text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+display: block;
 }
 
+#Maingame{
+text-align: left;
+background-color: rgb(39,41,50);
+font-weight: 10px;
+padding: 10px;
+letter-spacing: 10px;
+}
 
+#nomadscamp{
+width: 600px;
+word-wrap: break-word;
+margin-bottom: 40px;
+float: right top;
+margin: right 15px;
+}
 
+#ArasakaCorp{
+height: 400px;
+}
+#choices{
+height: 400px;
+}
+#SuspendedTrain{
+height: 400px;
+}
+   
 /* The start of the gang.html  */
 
 #background{
 background-color:black ;
-color: aliceblue;
+color: white ;
+margin-top: 40px;
 }
 
 
@@ -92,5 +134,23 @@ display: flex;
 .Patches{
 display:flex;
 justify-content: center;
+}
 
+footer{
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+}
+.Information{
+float: right;
+margin:top 100px ;
+height: 300px;
+width: 200px;
+background-color:darkslategrey;
+border: 3px solid yellow;
+color: black;
+padding: 10px;
 }
