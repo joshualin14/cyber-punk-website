@@ -33,22 +33,22 @@ background-color: rgba(0, 0, 0, 0.258);
 }
 /* catogories box */
 .index-category-box:nth-child(1) {
-   background-image: url(/Photos/Gangs\ logo.jpg_large);
+   background-image: url(Photos/Gangs\ logo.jpg_large);
    background-position: center;
    
 
 }
 .index-category-box:nth-child(2) {
-   background-image: url(/Photos/Map.jpg);
+   background-image: url(Photos/Map.jpg);
    background-position: center;
 }
 
 .index-category-box:nth-child(3) {
-   background-image: url(/Photos/background\ japan\ town.png);
+   background-image: url(Photos/background\ japan\ town.png);
    background-position: center;
 }
 .index-category-box:nth-child(4) {
-   background-image: url(/Photos/Corporations_Database_CP2077.jpg);
+   background-image: url(Photos/Corporations_Database_CP2077.jpg);
    background-position: center;
 }
 .index-category-box-h3{
@@ -63,7 +63,7 @@ color: aliceblue;
 font-weight: 10px;
 padding: 10px;
 text-align: center;
-background-image: url(/Photos/Back\ in\ black.webp);
+background-image: url(Photos/Back\ in\ black.webp);
 background-repeat: no-repeat;
 background-size: cover;
 word-wrap: break-word;
@@ -174,21 +174,21 @@ justify-content: center;
 
 /* catogories box */
 .index-category-box2{
-   background-image: url(/Photos/6\ street\ logo.jpg);
+   background-image: url(Photos/6\ street\ logo.jpg);
    background-position: center;
 
 }
 .index-category-box2:nth-child(2) {
-   background-image: url(/Photos/Maelstrom.png);
+   background-image: url(Photos/Maelstrom.png);
    background-position: center;
 }
 
 .index-category-box2:nth-child(3) {
-   background-image: url(/Photos/Tigerclaws2.png);
+   background-image: url(Photos/Tigerclaws2.png);
    background-position: center;
 }
 .index-category-box2:nth-child(4) {
-   background-image: url(/Photos/Animals.png);
+   background-image: url(Photos/Animals.png);
    background-position: center;
 }
 
